@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: luminari, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+#legend {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: right;
+}
+
+.legend-item {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#tooltip {
+    position: absolute;
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: none;
+    pointer-events: none;
+}
+
+span {
+    font-size: 12px;
+    padding: 8px;
+}
